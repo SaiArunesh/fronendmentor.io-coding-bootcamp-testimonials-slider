@@ -199,10 +199,11 @@ body {
   .quote {
     font-size: 1rem;
     line-height: 30px;
+    padding-bottom: 5px;
   }
   .name h4,
   .name p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
