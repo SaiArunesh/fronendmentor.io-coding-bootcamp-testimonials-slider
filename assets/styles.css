@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  background-color: white;
+  font-size: 32px;
+  color: #202046;
+  background: url("../images/favicon-32x32.png") no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background: url("../images/pattern-bg.svg"), url("../images/pattern-quotes.svg"), url("../images/pattern-curve.svg"), white;
+  background-repeat: no-repeat;
+  background-position: right 9% bottom 55%,left 19% top 25%,left bottom;
+  max-width: 1440px;
+  min-height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 100px;
+}
+
+.page1, .page2 {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 54%;
+  line-height: 50px;
+  margin-right: -7%;
+  z-index: 1;
+}
+
+.quote {
+  padding-bottom: 25px;
+}
+
+.name h4, .name p {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.name p {
+  color: #babacf;
+  font-weight: 400;
+}
+
+.image {
+  position: relative;
+}
+
+.image img {
+  border-radius: 10px;
+}
+
+.image .pill {
+  background-color: white;
+  border-radius: 50px;
+  position: absolute;
+  bottom: -21px;
+  left: 13%;
+  width: 100px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-shadow: 0px 8px 20px 1px;
+          box-shadow: 0px 8px 20px 1px;
+}
+
+.page2 {
+  display: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+/*# sourceMappingURL=styles.css.map */

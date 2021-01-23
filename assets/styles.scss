@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+$darkblue:hsl(240, 38%, 20%);
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    @include flexCenter();
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+    font-size: 32px;
+    color:$darkblue;
+    background: url('../images/favicon-32x32.png') no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background: url('../images/pattern-bg.svg'),url('../images/pattern-quotes.svg'),url('../images/pattern-curve.svg'),white;
+    background-repeat: no-repeat;
+    background-position:  right 9% bottom 55%,left 19% top 25%,left bottom;
+    max-width:1440px;
+    min-height:800px;
+    @include flexCenter();
+    padding: 0px 100px;
+
+}
+.page1,.page2{
+   user-select:none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 54%;
+    line-height: 50px;;
+    margin-right: -7%;
+    z-index: 1;
+}
+.quote{
+    padding-bottom: 25px;
+}
+.name{
+    h4,p{
+        display: inline-block;
+        font-size: 1.5rem;
+    }
+    p{
+        color:hsl(240, 18%, 77%);
+        font-weight: 400;
+    }
+
+}
+.image{
+    position: relative;
+    img{
+    border-radius: 10px;
+    }
+    .pill{
+        background-color: white;
+        border-radius: 50px;
+        position: absolute;
+        bottom:-21px;
+        left:13%;
+        width:100px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 0px 8px 20px 1px;
+        img{
+
+        }
+    }
+}
+
+.page2{
+    display:none;
+    user-select:none;
+
+}
