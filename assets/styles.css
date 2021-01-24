@@ -99,7 +99,6 @@ body {
 
 .image {
   position: relative;
-  cursor: pointer;
 }
 
 .image img {
@@ -107,6 +106,7 @@ body {
 }
 
 .image .pill {
+  cursor: pointer;
   background-color: white;
   border-radius: 50px;
   position: absolute;

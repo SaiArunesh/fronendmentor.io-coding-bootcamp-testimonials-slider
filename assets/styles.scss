@@ -66,12 +66,11 @@ body {
 }
 .image {
 	position: relative;
-	cursor: pointer;
-
 	img {
 		border-radius: 10px;
 	}
 	.pill {
+		cursor: pointer;
 		background-color: white;
 		border-radius: 50px;
 		position: absolute;
